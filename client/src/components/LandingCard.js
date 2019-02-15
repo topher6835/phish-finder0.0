@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom';
 
 class LandingCard extends Component {
   render() {
@@ -6,7 +7,6 @@ class LandingCard extends Component {
       <div className="row">
       <div className="col s12">
         <div className="card">
-          
           <div className="card-content">
             <p className="center">The Phish band from Vermont.</p>
             <p>To get started click "Years".</p>
@@ -14,8 +14,8 @@ class LandingCard extends Component {
             <p>This component needs better content.</p>
           </div>
           <div className="card-action blue-grey lighten-5 center">
-            <a href="/AppInfo" >App Info</a>
-            <a href="#" >Git Hub</a>
+            <Link to="/AppInfo" >App Info</Link>
+            <Link to="#" >Git Hub</Link>
           </div>
         </div>
       </div>

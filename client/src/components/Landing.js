@@ -12,6 +12,9 @@ class Landing extends Component {
     this.state = {displayYears: false, selectByYearColor: 'white'};
   }
   componentDidMount() {
+    if(this.props.years.length > 0) {
+      return;
+    }
     this.props.fetchYears();
   }
 
