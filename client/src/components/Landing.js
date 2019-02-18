@@ -39,8 +39,8 @@ class Landing extends Component {
 
   render() {
     return (
-      <div style={{margin: '0px'}}>
-        <div  style={{ paddingTop: 20 }}>
+      <div style={{margin: 0}}>
+        <div style={{paddingTop: 20}}>
           <LandingCard />
         </div>
         <ul className="collection with-header">
