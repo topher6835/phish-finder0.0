@@ -10,7 +10,7 @@ class AppInfo extends Component {
                         <div className="card blue-grey darken-1">
                             <div className="card-content white-text">
                                 <span className="card-title">AppInfo</span>
-                                <p>This app was built with React, Node, and Express.</p>
+                                <p>This app was built with React, Redux, and Express.</p>
                                 <p>Data is retrieved via Axios from 
                                     <a href="https://phish.in/api-docs" target="_blank" rel="noopener noreferrer">
                                         &nbsp; Phish.in API
