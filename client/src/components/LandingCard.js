@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from 'react-router-dom';
+import gitIcon from '../images/githubIcon.svg';
 
 class LandingCard extends Component {
   render() {
